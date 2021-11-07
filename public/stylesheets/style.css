@@ -1,8 +1,40 @@
-body {
+body, html {
+    height: 100%;
+    display: grid;
+
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background: #111111;
+    color: white;
+}
+
+#container{
+    margin: auto;
+}
+
+#socialMedia{
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+#socialMedia a{
+  padding: 10px;
+  font-size: 2em;
 }
 
 a {
-  color: #00B7FF;
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+  font-size: 1em;
 }
